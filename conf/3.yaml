@@ -1,0 +1,33 @@
+-
+  host: http://isports.suning.com
+  url: /sacs-web/pptv/user/userInfo.do
+  detail: check3
+  method: get
+  data:
+    _source: ppsports
+    apptype: android
+    appversion: 5.8.2
+    username: zxzx2017
+    GET_USER_INFO: /pptv/user/userInfo.do
+    appid: PPTVSPORTSNO1
+    appplt: aph
+    appver: 1.1.1
+    ppi: AgECAAAAAgAATksAAAACAAAAAFxteYAxmK2XiDJviDfo9bJjI34StHhaIyrQ--LgGPRrpMS43igMeA-7l4PAhL5WKnoK022n2Ctpz9tBhM67YlVzfeeS
+  check:
+    - loginname
+-
+  host: http://api.ddp.vip.pptv.com
+  url: /package/buyed/list
+  detail: check3
+  method: get
+  data:
+   _source: ppsports
+   apptype: android
+   appversion: 5.8.2
+   username: zxzx2017
+   appid: PPTVSPORTSNO1
+   appplt: aph
+   appver: 1.1.1
+   ppi: AgECAAAAAgAATksAAAACAAAAAFxteYAxmK2XiDJviDfo9bJjI34StHhaIyrQ--LgGPRrpMS43igMeA-7l4PAhL5WKnoK022n2Ctpz9tBhM67YlVzfeeS
+  check:
+    - packageId

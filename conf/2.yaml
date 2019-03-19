@@ -1,0 +1,18 @@
+-
+  host: http://api.passport.pptv.com
+  url: /pptvExLogin.do
+  detail: check3
+  method: get
+  data:
+    _source: ppsports
+    apptype: android
+    appversion: 5.8.2
+    encryptUsername: Hsq0G2IGZUQ7P4mwLM82MbywKh8fMf6MmOYTW+yo/Fpb9b9ZHGf7DtFZ6YGhh5tPmLAwgY2UYScEHLfR1+t8yaobmL8hL8K+ui8G8JiMPxhVa/kTrSBfoinnoAfd5LbBpZoYceyApb+y7JD1QxOQmswKQr6ciBgMAScK+LEU6wU=
+    encryptPassword: K22MxgcV1VDywX1w2av69lZSGphRJR8Obz8p31JY1E2BCgGVdB+jB4RmxbLefvLxI/OJyAwtEt1ZEea05+S+bSZFnZCMUbH7AMeo4ni08HKU+N5tEhGj7fxX+u9MWwC/x6uz9DVUtjc68ATWFO3isghcXkYtDUAbqxXb0m0ro0g=
+    appid: sports
+    appplt: aph
+    from: aph
+    channel: 208000202030
+    format: json
+  check:
+    - token

@@ -1,0 +1,16 @@
+-
+  host: http://ppgateway.cp61.ott.cibntv.net
+  url: /ott-web/live/v1/showMatchEvent.do
+  detail: check1
+  method: get
+  data: sdspMatchId=259988
+  check:
+    - retCode
+-
+  host: http://test.psi.ppqa.com
+  url: /staticMsg/getMsg?appName=pptv.atv.sports
+  detail: check1
+  method: get
+  data:
+  check:
+    - code
